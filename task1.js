@@ -1,4 +1,4 @@
-const fs = require('fs')
+const prompt = require('prompt-sync')();
 
 function uniqueOnly(input){
     let result = {};
@@ -12,6 +12,7 @@ function uniqueOnly(input){
 
 (() => {
     // Ctrl + Z to end line while providing input.
-    const integers = fs.readFileSync(0).toString().split(" ")
+    // const integers = fs.readFileSync(0).toString().split(" ")
+    const integers = (prompt()).toString().split(" ");
     console.log(uniqueOnly(integers))
 })()
