@@ -54,8 +54,6 @@ locally, the list of available endpoints, and example requests and responses.
 
 ## Getting Started
 
-Include instructions on how to navigate the repository and access task-specific information.
-
 1. Clone the repository: `git clone https://github.com/goropencho/return_journey.git`
 2. Navigate to the project directory: `cd return_journey`
 3. Explore the `tasks 1-3` and `tasks 4-7` folders for details on individual tasks.
